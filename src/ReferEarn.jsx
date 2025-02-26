@@ -52,7 +52,7 @@ const ReferEarn = () => {
       <button
         style={buttonStyle}
         className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-semibold py-3 px-8 rounded-lg shadow-xl transition-all duration-300 
-        animate-bounce active:scale-90 hover:shadow-yellow-300"
+        animate-wiggle active:scale-90 hover:shadow-yellow-300"
         onClick={openModel}
       >
         Refer Now 🚀
