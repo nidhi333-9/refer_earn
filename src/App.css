@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("./assets/fonts/SuperShiny.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ButtonFont";
+  src: url("./assets/fonts/PertamaxFake.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* body {
+  font-family: "CustomFont", sans-serif;
+} */
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(2px);
+  }
+  75% {
+    transform: translateX(-2px);
+  }
+}
+
+.animate-wiggle {
+  animation: wiggle 0.4s infinite;
+}
